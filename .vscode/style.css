@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .column-container {
+    display: none;
+    text-align: center;
+  }
+  
+  .column-item {
+    display: inline-block;
+    margin: 10px;
+  }
