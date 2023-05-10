@@ -3,6 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
+    padding: 10px;
   }
   
   .grid-item {
@@ -13,10 +14,22 @@
   
   .column-container {
     display: none;
-    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .column-item {
-    display: inline-block;
-    margin: 10px;
+    width: 250px;
+    height: 400px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
