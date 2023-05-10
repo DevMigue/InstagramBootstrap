@@ -17,11 +17,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px
   }
   
   .column-item {
-    width: 250px;
-    height: 400px;
+    width: 430px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
   }
 
   img {
@@ -30,6 +34,10 @@
 
   .head {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    border: solid 1px grey;
+  }
+  
+  .foot {
+    border: solid 1px grey;
   }
